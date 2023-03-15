@@ -10,6 +10,9 @@
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
   <title>Work Day Scheduler</title>
 </head>
 
@@ -20,55 +23,60 @@
     <p id="currentDay" class="lead"></p>
   </header>
   <div class="container">
-    <div class="container">
-      <div class="row time-block">
-        <div class="col-md-1 hour">9AM</div>
-        <textarea class="col-md-10 description past" id="text9"></textarea>
-        <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
-      </div>
-      <div class="row time-block">
-        <div class="col-md-1 hour">10AM</div>
-        <textarea class="col-md-10 description present" id="text10"></textarea>
-        <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
-      </div>
-      <div class="row time-block">
-        <div class="col-md-1 hour">11AM</div>
-        <textarea class="col-md-10 description future" id="text11"></textarea>
-        <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
-      </div>
-      <div class="row time-block">
-        <div class="col-md-1 hour">12AM</div>
-        <textarea class="col-md-10 description future" id="text11"></textarea>
-        <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
-      </div>
+    <div class="row time-block">
+      <div class="col-md-1 hour">9AM</div>
+      <textarea class="col-md-10 description past" id="text9"></textarea>
+      <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+    <div class="row time-block">
+      <div class="col-md-1 hour">10AM</div>
+      <textarea class="col-md-10 description present" id="text10"></textarea>
+      <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+    <div class="row time-block">
+      <div class="col-md-1 hour">11AM</div>
+      <textarea class="col-md-10 description future" id="text11"></textarea>
+      <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+    <div class="row time-block">
+      <div class="col-md-1 hour">12AM</div>
+      <textarea class="col-md-10 description future" id="text12"></textarea>
+      <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
     <div class="row time-block">
       <div class="col-md-1 hour">1PM</div>
-      <textarea class="col-md-10 description future" id="text11"></textarea>
+      <textarea class="col-md-10 description future" id="text1"></textarea>
       <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
     <div class="row time-block">
       <div class="col-md-1 hour">2PM</div>
-      <textarea class="col-md-10 description future" id="text11"></textarea>
+      <textarea class="col-md-10 description future" id="text2"></textarea>
       <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
     <div class="row time-block">
       <div class="col-md-1 hour">3PM</div>
-      <textarea class="col-md-10 description future" id="text11"></textarea>
+      <textarea class="col-md-10 description future" id="text3"></textarea>
       <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
     <div class="row time-block">
       <div class="col-md-1 hour">4PM</div>
-      <textarea class="col-md-10 description future" id="text11"></textarea>
+      <textarea class="col-md-10 description future" id="text4"></textarea>
       <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
     <div class="row time-block">
       <div class="col-md-1 hour">5PM</div>
-      <textarea class="col-md-10 description future" id="text11"></textarea>
+      <textarea class="col-md-10 description future" id="text5"></textarea>
       <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  </div>
+  <script>
+    $(document).ready(function() {
+      console.log("jQuery is working!");
+    });
+  </script>
+  
+</body>
+
 </body>
 
 </html>
