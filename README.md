@@ -6,5 +6,7 @@ I have successfully, however, created the page layout, intergrated moment so tha
 
 ![image](https://user-images.githubusercontent.com/119360569/228082217-e87ae503-4dac-4950-b849-0ea1c6dbdaf0.png)
 
-# My repo: https://github.com/DC19Bootcamp
+## My repo: https://github.com/DC19Bootcamp
+## My live URL: https://dc19bootcamp.github.io/Challenge-7-Daily-Planner/
+## My source code: https://github.com/DC19Bootcamp/Challenge-7-Daily-Planner
 
